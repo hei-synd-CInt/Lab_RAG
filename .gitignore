@@ -132,7 +132,7 @@ dmypy.json
 # End of https://www.gitignore.io/api/python
 
 # data, models and other forlders
-# data/
+data/
 models/
 predictions/
 
