@@ -1,7 +1,11 @@
 # LLM, RAG, and Agents
 
+![RAG schema](./img/RAG_schema.png "Generic schema of a RAG system")
+[*(Source of the image)*](https://www.promptingguide.ai/research/rag)
+
+
 ## Missions & Activities:
-This lab is organized in two parts:
+This Lab is organized in two parts:
 1. In the first part, you will follow a tutorial to run a simple RAG (Retrieval Augmented Generation) technique. The idea is to improve LLMs (Large Language Models) by adding a retrieval component from an external data source. This means enriching the knowledge that the model gained from its pre-training with information retrieved from specific sources (text files, videos, etc.). As a case study, you will use the RAG system to develop a chatbot able to reliably answer questions about the manual of [Home I/O](https://docs.realgames.co/homeio/en/).
 2. In the second part, you will implement a simple "agent". This agent will use a method called "tool or function calling" to:
 - take vocal commands from the user
