@@ -23,10 +23,12 @@ dependencies = [
     "langchain-huggingface (>=0.1.2,<0.2.0)",
     "langchain-unstructured (>=0.1.6,<0.2.0)",
     "unstructured (>=0.16.23,<0.17.0)",
-    "torch (==2.6.0+cu118)",
-    "torchvision (==0.21.0+cu118)",
-    "torchaudio (==2.6.0+cu118)",
-    "langchain-ollama (>=0.2.3,<0.3.0)"
+    "langchain-ollama (>=0.2.3,<0.3.0)",
+    "notebook (>=7.3.3,<8.0.0)",
+    "accelerate (>=1.6.0,<2.0.0)",
+    "ipywebrtc (>=0.6.0,<0.7.0)",
+    "ffmpeg-python (>=0.2.0,<0.3.0)",
+    "ipywidgets (>=8.1.5,<9.0.0)"
 ]
 
 
@@ -37,13 +39,3 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 package-mode = false
 
-[[tool.poetry.source]]
-name = "pytorch"
-url = "https://download.pytorch.org/whl/cu118"
-priority = "explicit"
-
-
-[tool.poetry.dependencies]
-torch = {source = "pytorch"}
-torchvision = {source = "pytorch"}
-torchaudio = {source = "pytorch"}
