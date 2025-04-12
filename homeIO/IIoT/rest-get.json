@@ -1,0 +1,189 @@
+{
+  "LivingRoom": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "ShuttersWest": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "ShuttersSouth": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "GuestRestroom": {
+    "WashbinLight": {
+      "Button": "BOOLEAN"
+    },
+    "ToiletLight": {
+      "Button": "BOOLEAN"
+    }
+  },
+  "Pantry": {
+    "Light": {
+      "Button": "BOOLEAN"
+    }
+  },
+  "Kitchen": {
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "Entrance": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "Garage": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Door": {
+      "IsClosed": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsIRSensor": "BOOLEAN",
+      "IsOpen": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    }
+  },
+  "Corridor": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "KidsBedroom": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "Bathroom": {
+    "WashbinLight": {
+      "Button": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "SingleBedroom": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "PrivateBathroom": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "CoupleBedroom": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "Laundry": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  },
+  "Office": {
+    "Light": {
+      "Button": "BOOLEAN"
+    },
+    "Shutters": {
+      "IsDown": "BOOLEAN",
+      "IsDownButtonPressed": "BOOLEAN",
+      "IsUp": "BOOLEAN",
+      "IsUpButtonPressed": "BOOLEAN"
+    },
+    "Heating": {
+      "Room Temperature": "FLOAT",
+      "Set Point": "FLOAT"
+    }
+  }
+}

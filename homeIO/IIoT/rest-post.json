@@ -1,0 +1,56 @@
+{
+  "LivingRoom": {
+    "Light": ["ON", "OFF"],
+    "ShuttersWest": ["UP", "DOWN"],
+    "ShuttersSouth": ["UP", "DOWN"]
+  },
+  "GuestRestroom": {
+    "WashbinLight": ["ON", "OFF"],
+    "ToiletLight": ["ON", "OFF"]
+  },
+  "Pantry": {
+    "Light": ["ON", "OFF"]
+  },
+  "Kitchen": {
+    "Shutters": ["UP", "DOWN"]
+  },
+  "Entrance": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  },
+  "Garage": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"],
+    "Door": ["UP", "DOWN"]
+  },
+  "Corridor": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  },
+  "KidsBedroom": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  },
+  "Bathroom": {
+    "WashbinLight": ["ON", "OFF"]
+  },
+  "SingleBedroom": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  },
+  "PrivateBathroom": {
+    "Light": ["ON", "OFF"]
+  },
+  "CoupleBedroom": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  },
+  "Laundry": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  },
+  "Office": {
+    "Light": ["ON", "OFF"],
+    "Shutters": ["UP", "DOWN"]
+  }
+}

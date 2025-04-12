@@ -156,5 +156,5 @@ predictions/
 
 # other
 *.bak
-/homeIO
+
 config.py
