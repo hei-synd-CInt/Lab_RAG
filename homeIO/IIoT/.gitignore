@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!README.md
+!rest-get.json
+!rest-post.json
+!OT_2024_6_24_10_44_30.xml
