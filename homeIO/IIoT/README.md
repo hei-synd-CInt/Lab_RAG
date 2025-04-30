@@ -1,12 +1,17 @@
-Instructions to run the project for the first time (Windows)
+Instructions to run the project for the first time
 
-Requirements
+Requirements (Windows)
 - Windows 10 or later
 - The computer language must be set to English
+
+Requirements (MacOS or Linux)
+- To do (check the info on the SDI/OT-Security/IIoT course)
 
 ## 1. Install HomeIO
 Launch the installer `homeio-org-installer.exe` and follow the instructions.
 Bu sure to install all the optional components. 
+
+For MacOS's users, you need to use a virtual machine with Windows 10 or later. Follow the instructions of the previous SDI/OT-Security/IIoT course to install the virtual machine with HomeIO and the Modbus Gateway (see Section 3. Launch Gateway).
 
 ## 2. Open HomeIO
 Launch the application `HomeIO.exe`, start a new simulation and save a game. It will create a folder `Home IO` in your Documents folder:
@@ -34,14 +39,24 @@ For Wago (`192.168.1.2`) on the IIoT Rack via SSH
 
 Or locally to your computer
 ```bash
-.\Controller_sol-Win-x64 -ip "127.0.0.1"
+.\Controller_sol-XX --ip "127.0.0.1" --user sdiXX
+```
+Replace the XX with their own architecture and own user.
+For example, for windows and the id 01:
+
+```bash
+.\Controller_sol-Win-x64 --ip "127.0.0.1" --user sdi01
 ```
 
 ## 5.a Check the REST API
-Go to the website: [REST API](https://homeio.sdi.hevs.ch/homeio/swagger/index.html)
+Go to the website: [REST API](https://homeio.sdi.hevs.ch/swagger/index.html)
 
+## 5.b Check the REST API
+For a list of the available endpointscheck the files:
+- rest-post.json
+- rest-get.json 
 
-## 5.b Launch REST API (only for the teacher)
+## 5.c Launch REST API (ONLY for the teacher)
 Go to the folder where the REST API is located: `<...>\rest-api-container`
 ```bash
 docker-compose up
@@ -67,7 +82,7 @@ For the prof the id number is 42. For the hash, check [here](https://sdi.hevs.ch
 import requests
 
 # URL
-url = # Replace with the actual URL of your REST API (on the local machine: 'http://localhost:8080/homeio')
+url = # 'https://homeio.sdi.hevs.ch/homeio' (or, if using docker, 'http://localhost:8080/homeio')
 
 # Parameters from the URL query string
 params = {'room': 'Garage', 'device': 'Door'}
