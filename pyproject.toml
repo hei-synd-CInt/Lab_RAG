@@ -24,13 +24,11 @@ dependencies = [
     "langchain-unstructured (>=0.1.6,<0.2.0)",
     "unstructured (>=0.16.23,<0.17.0)",
     "langchain-ollama (>=0.2.3,<0.3.0)",
-    "notebook (>=7.3.3,<8.0.0)",
-    "accelerate (>=1.6.0,<2.0.0)",
-    "ipywebrtc (>=0.6.0,<0.7.0)",
-    "ffmpeg-python (>=0.2.0,<0.3.0)",
-    "ipywidgets (>=8.1.5,<9.0.0)"
+    "dataparser (>=0.0.2,<0.0.3)",
+    "dateparser (>=1.2.1,<2.0.0)",
+    "tavily-python (>=0.7.1,<0.8.0)",
+    "matplotlib (>=3.10.1,<4.0.0)"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
@@ -38,4 +36,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 package-mode = false
-
