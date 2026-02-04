@@ -53,4 +53,4 @@ This Lab is organized in two parts:
 
 
 # Installation
-See the [Poetry tutorial](https://github.com/hei-synd-aml/lab-0-TutoPoetry) or create your own environment with the necessary packages. 
+See the [uv tutorial](https://github.com/hei-synd-aml/lab-0-TutoUv) or create your own environment with the necessary packages. 
