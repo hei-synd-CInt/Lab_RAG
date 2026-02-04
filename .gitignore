@@ -135,6 +135,7 @@ dmypy.json
 models/
 predictions/
 data/vectorstores_pdf/
+data/vectorstores_web/
 
 # OSX files
 .DS_Store
