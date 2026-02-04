@@ -156,7 +156,6 @@ predictions/
 
 # other
 *.bak
-*.lock
 
 config.py
 testRequest.ipynb
