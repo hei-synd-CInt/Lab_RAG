@@ -131,10 +131,10 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python
 
-# data, models and other forlders
-data/
+# models and other forlders
 models/
 predictions/
+data/vectorstores_pdf/
 
 # OSX files
 .DS_Store
@@ -156,7 +156,6 @@ predictions/
 
 # other
 *.bak
-*.lock
 
 config.py
 testRequest.ipynb
