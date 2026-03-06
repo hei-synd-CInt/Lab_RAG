@@ -29,18 +29,18 @@ This Lab is organized in two parts:
 - Python notebook with the code of the chatbot and the answers to the open questions.
 
 ### Activity 2
-- **Problem**: Develop a simple "agent" that can take vocal commands from the user, transmit them to the Home I/O platform, and get vocal feedback.
-    - Example 1 of interaction:
+- **Problem**: Develop a simple "agent". We suggest an application that can take vocal commands from the user, transmit them to the Home I/O platform, and control smart-home devices.
+    - Example of interaction:
         - Vocal prompt: "Turn on the lights in the kitchen."
         - Agent actions: Check the current state of the lights in the kitchen. If necessary, send the command to the Home I/O platform; get the new state of the lights in the kitchen.
         - Answer: "The lights in the kitchen are now turned on."
-    - Example 2 (harder):
-        - Vocal prompt: "What was the average temperature in the living room last month?"
-        - Agent actions: Retrieve the data from the database in the right time interval. Compute the average.
-        - Answer: "The average temperature in the living room last month was 22°C."
+    
+
 - **Goal**: Implement an "agent" able to understand vocal commands via speech recognition, use a function calling approach to interact with the Home I/O platform, and get vocal feedback (e.g., task successfully accomplished or not, status change, etc.).
-    - (Nice to have): "Detect anomalies in the temperature data from 01.01.2024 to 31.12.2025."
-- **Tools**: Speech recognition Whisper, tool/function calling with Langchain.
+
+NOTE: You are free to propose your own application of an agent. We expect a complexity level similar to the previous example. You can use AI to help you with the code *but*: you are the owner of the code. You MUST be able to explain everything going on in your code. Not being able of doing so, wmay comport a severe penalization on the final grade.
+
+- **Tools**: Speech recognition (check [Whisper](https://github.com/openai/whisper)), tool/function calling with [Langchain](https://docs.langchain.com/oss/python/langchain/overview) and [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview).
 - **New/Consolidation of ML Glossary**: Agent, Function calling.
 
 ## Tasks
@@ -49,8 +49,6 @@ This Lab is organized in two parts:
 
 ## Expected Outcomes:
 - Python notebook with the code of the agent and the answers to the open questions.
-
-
 
 # Installation
 See the [uv tutorial](https://github.com/hei-synd-aml/lab-0-TutoUv) or create your own environment with the necessary packages. 
